@@ -1,0 +1,68 @@
+/* Dashboard.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f9fa;
+}
+
+.dashboard-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  color: #343a40;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.thumbnail-wrapper {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.thumbnail-wrapper:hover {
+  transform: scale(1.05);
+}
+
+.thumbnail {
+  width: 120px;
+  height: auto;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.thumbnail:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.delete-button {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}

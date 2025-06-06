@@ -1,0 +1,43 @@
+/* CanvasEditor.css */
+
+.canvas-editor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+.canvas-editor {
+  border: 2px solid #ccc;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  cursor: crosshair;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+.editor-controls {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.editor-controls button {
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.editor-controls button:hover {
+  background-color: #0056b3;
+}
